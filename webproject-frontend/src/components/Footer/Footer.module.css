@@ -1,0 +1,47 @@
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 10rem;
+    background: #0050a7;
+    text-align: left;
+    color: #fff;
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+.footerContainer{
+    width: 30rem;
+    margin: auto;
+}
+
+@media screen and (max-width: 576px){
+    .footerContainer{
+        width: 20rem;
+    }
+}
+
+.footer ul{
+    padding: 0;
+}
+
+.footer li{
+    list-style: none;
+}
+
+.footer li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer li a:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.lineBreak{
+    border: 0.5px solid #fff;
+}
+
+.icon{
+    margin-right: 0.5rem;
+}

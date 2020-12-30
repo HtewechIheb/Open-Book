@@ -1,0 +1,24 @@
+.dashboardContent{
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 20px;
+    min-height: 30rem;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.dashboardContent h1{
+    font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', 'sans-serif';
+    margin-bottom: 3rem;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.dashboardContentButtons{
+    width: 100%;
+    text-align: center;
+}
+
+.dashboardContentBtn {
+    margin-right: 0.5rem;
+}

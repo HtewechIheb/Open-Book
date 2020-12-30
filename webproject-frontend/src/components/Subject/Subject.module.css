@@ -1,0 +1,26 @@
+.subjectCard{
+    min-height: 450px;
+    border: 1px solid #ddd !important;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 576px){
+    .cardBtn{
+        box-sizing: border-box;
+        width: 50%;
+        position: absolute;
+        bottom: 10%;
+        left: 25%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .cardBtn{
+        box-sizing: border-box;
+        width: 50%;
+        position: absolute;
+        bottom: 5%;
+        left: 25%;
+    }
+}

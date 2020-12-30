@@ -1,0 +1,12 @@
+nav{
+    background-color: #0050a7 !important;
+    position: relative;
+}
+
+nav .dropdownItem:active{
+    background-color: #0050a7 !important;
+}
+
+.icon{
+    margin-right: 0.5rem;
+}

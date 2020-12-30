@@ -1,0 +1,16 @@
+.formLogin{
+    max-width: 25rem;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+.formTitle{
+    font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', 'sans-serif';
+    margin-bottom: 3rem !important;
+    font-size: xx-large !important;
+    font-weight: 900 !important;
+}

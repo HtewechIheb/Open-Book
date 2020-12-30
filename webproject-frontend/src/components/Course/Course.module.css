@@ -1,0 +1,51 @@
+.courseCard {
+    min-width: 100% !important;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd !important;
+}
+
+.courseBody {
+    height: 100%;
+}
+
+.courseBtn:active{
+    outline: none;
+}
+
+@media screen and (max-width: 768px){
+    .courseImg {
+        height: 300px;
+    }
+    .courseBody {
+        padding-top: 2rem !important;
+        text-align: center;
+    }
+    .courseButtons {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .courseBtn {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .courseImg {
+        min-height: 200px;
+    }
+    .courseBody {
+        padding-left: 2rem !important;
+        padding-top: 0 !important;
+    }
+    .courseBtn {
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .courseBtn {
+        margin-top: 1rem;
+    }
+}

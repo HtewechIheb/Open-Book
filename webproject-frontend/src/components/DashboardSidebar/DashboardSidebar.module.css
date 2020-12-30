@@ -1,0 +1,52 @@
+.dashboardSidebar{
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 20px;
+    min-height: 30rem;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+@media screen and (max-width: 768px){
+    .dashboardSidebar{
+        margin-bottom: 10px;
+    }
+}
+
+.dashboardSidebar img{
+    width: 10rem;
+    height: 10rem;
+    margin: 0 0 1.5rem 0;
+    border-radius: 90px;
+}
+
+.dashboardSidebar ul{
+    margin: 1.5rem 0 0 0;
+    padding: 0;
+    text-align: left;
+    word-break: break-word;
+}
+
+.dashboardSidebar ul .email{
+    word-break: break-all;
+}
+
+.dashboardSidebar ul li{
+    padding: 0.5rem 0;
+    margin-left: 1rem;
+    list-style: none;
+    border-bottom: 1px solid #f0f4f7;
+}
+
+.dashboardSidebar ul li:last-child{
+    border-bottom: none;
+}
+
+.icon{
+    margin-right: 1rem;
+}
+
+.editBtn{
+    text-align: center;
+    margin-top: 1rem;
+}

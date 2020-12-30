@@ -1,0 +1,13 @@
+.courses{
+    background-color: white;
+    padding: 80px 15px 500px 15px;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.title{
+    font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', 'sans-serif';
+    margin-bottom: 3rem !important;
+    font-size: xx-large !important;
+    font-weight: 900 !important;
+}

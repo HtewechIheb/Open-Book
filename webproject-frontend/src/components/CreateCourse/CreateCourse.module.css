@@ -1,0 +1,16 @@
+.formCreate{
+    max-width: 50rem;
+    border-radius: 0.5rem;
+    margin: auto;
+    padding: 30px;
+    background-color: #fff;    
+    border: 1px solid #ccc;
+}
+
+.formTitle{
+    font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', 'sans-serif';
+    text-align: center;
+    margin-bottom: 3rem !important;
+    font-size: xx-large !important;
+    font-weight: 900 !important;
+}

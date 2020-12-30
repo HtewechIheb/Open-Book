@@ -1,0 +1,27 @@
+.showcase{
+    width: 100%;
+    min-height: 400px;
+    background: url('../../images/background.jpg') no-repeat;
+    background-size: cover;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    color: #fff;
+    padding: 12rem 0 0 0;
+    font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', 'sans-serif';
+}
+@media screen and (max-width: 500px){
+    .showcase{
+        padding: 10rem 0 0 0;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .showcase{
+        padding: 8rem 0 0 0;
+        background-position-x: -70px;
+    }
+}
+
+.showcase h1{
+    font-weight: 900 !important;
+}
